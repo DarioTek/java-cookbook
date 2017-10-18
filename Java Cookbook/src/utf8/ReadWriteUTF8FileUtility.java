@@ -1,3 +1,4 @@
+package utf8;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
@@ -10,6 +11,8 @@ import java.io.Writer;
 
 public class ReadWriteUTF8FileUtility {
 
+	private String UTF8_BOM_STRING = "\uFEFF";
+	
 	public void convertToUTF8(String inputFile, String outputFile){
 		System.out.println("Start convertToUTF8");
 		try {
@@ -20,6 +23,8 @@ public class ReadWriteUTF8FileUtility {
 		   Writer writer = new OutputStreamWriter(new FileOutputStream(outputFile), "UTF-8");
 		   BufferedWriter fout = new BufferedWriter(writer);
 		   String s;
+		   
+		   fout.write(UTF8_BOM_STRING);
 		   
 		   while ((s=fin.readLine())!=null) {
 		      fout.write(s);

@@ -49,7 +49,7 @@ public class ReadWriteUTF8FileUtility {
 		
 		System.out.println("Start");
 		ReadWriteUTF8FileUtility utility = new ReadWriteUTF8FileUtility();
-		utility.convertToUTF8("NEMS_20170925_115153.dat", "NEMS_20170925_115153.dat.utf8");
+		utility.convertToUTF8("C:\\Users\\DarioTek\\Downloads\\test", "C:\\Users\\DarioTek\\Downloads\\test2");
 				
 		System.out.println("Finish");
 		

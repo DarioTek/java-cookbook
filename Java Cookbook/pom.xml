@@ -79,6 +79,13 @@
             <version>${spring.version}</version>
         </dependency>
 
+	    <!-- MySQL database driver -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.38</version>
+		</dependency>
+
 		<dependency>
 		    <groupId>junit</groupId>
 		    <artifactId>junit</artifactId>

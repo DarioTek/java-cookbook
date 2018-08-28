@@ -11,6 +11,8 @@ public class ThirdFridayOfMonth {
 		LocalDate d = LocalDate.now();
 		d = d.with(TemporalAdjusters.dayOfWeekInMonth(3, DayOfWeek.FRIDAY));
 		System.out.println(d); 
+		
+		
 	}
 
 }

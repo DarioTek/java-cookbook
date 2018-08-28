@@ -1,7 +1,7 @@
 package jdbc;
 import java.sql.*; 
 
-public class TestJDBC {
+public class TestJDBCOracle {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

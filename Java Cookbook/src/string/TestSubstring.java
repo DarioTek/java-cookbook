@@ -2,6 +2,7 @@ package string;
 
 /*
  * Updated location in git repository
+ * 2nd test
  */
 public class TestSubstring {
 	

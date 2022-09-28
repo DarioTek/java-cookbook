@@ -1,5 +1,8 @@
 package string;
 
+/*
+ * Updated location in git repository
+ */
 public class TestSubstring {
 	
 	public static void main(String args[]){
